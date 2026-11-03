@@ -617,8 +617,11 @@ export default function Sitio() {
     <div className="sitio">
       <div className="barra-demo">
         <p>
-          Demo de {PRODUCTO} para lomiterías y pizzerías. El local es inventado
-          y los pedidos son de prueba.
+          Demo
+          <span className="demo-detalle">
+            {" "}de {PRODUCTO} para lomiterías y pizzerías. El local es inventado
+            y los pedidos son de prueba.
+          </span>
         </p>
         <Link to="/admin">Ver el panel del local</Link>
       </div>
